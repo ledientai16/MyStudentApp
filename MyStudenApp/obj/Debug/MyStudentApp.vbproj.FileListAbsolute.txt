@@ -1,0 +1,12 @@
+E:\Saleforce Project\MyStudenApp\MyStudenApp\obj\Debug\MyStudentApp.vbproj.AssemblyReference.cache
+E:\Saleforce Project\MyStudenApp\MyStudenApp\obj\Debug\MyStudentApp.vbproj.SuggestedBindingRedirects.cache
+E:\Saleforce Project\MyStudenApp\MyStudenApp\obj\Debug\MyStudenApp.Resources.resources
+E:\Saleforce Project\MyStudenApp\MyStudenApp\obj\Debug\MyStudentApp.vbproj.GenerateResource.cache
+E:\Saleforce Project\MyStudenApp\MyStudenApp\obj\Debug\MyStudentApp.vbproj.CoreCompileInputs.cache
+E:\Saleforce Project\MyStudenApp\MyStudenApp\bin\Debug\MyStudenApp.exe.config
+E:\Saleforce Project\MyStudenApp\MyStudenApp\bin\Debug\MyStudenApp.exe
+E:\Saleforce Project\MyStudenApp\MyStudenApp\bin\Debug\MyStudenApp.pdb
+E:\Saleforce Project\MyStudenApp\MyStudenApp\bin\Debug\MyStudenApp.xml
+E:\Saleforce Project\MyStudenApp\MyStudenApp\obj\Debug\MyStudenApp.exe
+E:\Saleforce Project\MyStudenApp\MyStudenApp\obj\Debug\MyStudenApp.xml
+E:\Saleforce Project\MyStudenApp\MyStudenApp\obj\Debug\MyStudenApp.pdb
