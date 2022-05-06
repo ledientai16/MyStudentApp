@@ -10,3 +10,10 @@ E:\Saleforce Project\MyStudenApp\MyStudenApp\bin\Debug\MyStudenApp.xml
 E:\Saleforce Project\MyStudenApp\MyStudenApp\obj\Debug\MyStudenApp.exe
 E:\Saleforce Project\MyStudenApp\MyStudenApp\obj\Debug\MyStudenApp.xml
 E:\Saleforce Project\MyStudenApp\MyStudenApp\obj\Debug\MyStudenApp.pdb
+C:\Users\Admin\Desktop\MyStudentApp\MyStudenApp\obj\Debug\MyStudentApp.vbproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\MyStudentApp\MyStudenApp\obj\Debug\MyStudenApp.Resources.resources
+C:\Users\Admin\Desktop\MyStudentApp\MyStudenApp\obj\Debug\MyStudentApp.vbproj.GenerateResource.cache
+C:\Users\Admin\Desktop\MyStudentApp\MyStudenApp\obj\Debug\MyStudentApp.vbproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\MyStudentApp\MyStudenApp\obj\Debug\MyStudenApp.exe
+C:\Users\Admin\Desktop\MyStudentApp\MyStudenApp\obj\Debug\MyStudenApp.xml
+C:\Users\Admin\Desktop\MyStudentApp\MyStudenApp\obj\Debug\MyStudenApp.pdb

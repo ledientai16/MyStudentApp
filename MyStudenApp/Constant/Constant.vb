@@ -34,5 +34,15 @@ Public Class Constant
     Public Const LengthIdWhereIn As Integer = 19500
 #End Region
 
+#Region "Login info tag"
+    Public Const UserNameTag As String = "username"
+    Public Const PassWordTag As String = "password"
+    Public Const ProxyHostTag As String = "proxy_host"
+    Public Const ProxyPortTag As String = "proxy_port"
+    Public Const SecurityTokenTag As String = "securitytoken"
+    Public Const ProxyUserTag As String = "proxy_username"
+    Public Const ProxyPassTag As String = "proxy_password"
+#End Region
+    Public Const ErrMsgLoginFail As String = "{0:yyyyMMddHHmmss} ログイン失敗：{1}"
 
 End Class
