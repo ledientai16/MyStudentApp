@@ -12,3 +12,16 @@ E:\Saleforce Project\MyStudentApp\MyStudenApp\bin\Debug\MyStudenApp.pdb
 E:\Saleforce Project\MyStudentApp\MyStudenApp\bin\Debug\MyStudenApp.xml
 E:\Saleforce Project\MyStudentApp\MyStudenApp\bin\Debug\Ksvc.Utility.dll
 E:\Saleforce Project\MyStudentApp\MyStudenApp\obj\Debug\MyStudenApp.vbproj.CopyComplete
+C:\Users\Admin\Desktop\MyStudentApp\MyStudenApp\bin\Debug\MyStudenApp.exe.config
+C:\Users\Admin\Desktop\MyStudentApp\MyStudenApp\bin\Debug\MyStudenApp.exe
+C:\Users\Admin\Desktop\MyStudentApp\MyStudenApp\bin\Debug\MyStudenApp.pdb
+C:\Users\Admin\Desktop\MyStudentApp\MyStudenApp\bin\Debug\MyStudenApp.xml
+C:\Users\Admin\Desktop\MyStudentApp\MyStudenApp\bin\Debug\Ksvc.Utility.dll
+C:\Users\Admin\Desktop\MyStudentApp\MyStudenApp\obj\Debug\MyStudenApp.vbproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\MyStudentApp\MyStudenApp\obj\Debug\MyStudenApp.Resources.resources
+C:\Users\Admin\Desktop\MyStudentApp\MyStudenApp\obj\Debug\MyStudenApp.vbproj.GenerateResource.cache
+C:\Users\Admin\Desktop\MyStudentApp\MyStudenApp\obj\Debug\MyStudenApp.vbproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\MyStudentApp\MyStudenApp\obj\Debug\MyStudenApp.vbproj.CopyComplete
+C:\Users\Admin\Desktop\MyStudentApp\MyStudenApp\obj\Debug\MyStudenApp.exe
+C:\Users\Admin\Desktop\MyStudentApp\MyStudenApp\obj\Debug\MyStudenApp.xml
+C:\Users\Admin\Desktop\MyStudentApp\MyStudenApp\obj\Debug\MyStudenApp.pdb

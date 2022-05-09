@@ -28,8 +28,11 @@ Public Class Constant
     Public Const CSVSuccessFileName As String = "List_Success_{0}{1}"
     Public Const CSVErrorFileName As String = "List_Error_{0}{1}"
 
+    Public Const DateTimeFortmat As String = "yyyyMMddHHmm"
+
     Public Const ExitCodeSuccess As Integer = 0
     Public Const ExitCodeError As Integer = 1
+
 
 #End Region
 
@@ -46,6 +49,10 @@ Public Class Constant
     Public Const SecurityTokenTag As String = "securitytoken"
     Public Const ProxyUserTag As String = "proxy_username"
     Public Const ProxyPassTag As String = "proxy_password"
+#End Region
+#Region "Setting info tag"
+    Public Const BackupCsvFoler As String = "BackupDataFolder"
+    Public Const ErrorCsvFolder As String = "ErrorDataFolder"
 #End Region
 
 
