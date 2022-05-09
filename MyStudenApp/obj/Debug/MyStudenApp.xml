@@ -22,6 +22,120 @@ MyStudenApp
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="T:MyStudenApp.SFDCHelper">
+ <summary>
+ Sforce用処理クラス
+ </summary>
+ <remarks>Create: 2014/02/18 kvc thuy</remarks>
+</member>
+<member name="M:MyStudenApp.SFDCHelper.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ コンストラクタ
+ </summary>
+ <param name="user">ユーザID</param>
+ <param name="password">パスワード</param> 
+ <param name="securityToken">セキュリティートークン</param>
+ <param name="proxyHost">プロキシホスト</param>
+ <param name="proxyPort">プロキシポート</param>
+ <param name="proxyUser">プロキシユーザ</param>
+ <param name="proxyPass">プロキシパスワード</param>
+ <remarks>Create: 2014/02/18 kvc thuy</remarks>
+</member>
+<member name="M:MyStudenApp.SFDCHelper.login">
+ <summary>
+ ログイン
+ </summary>
+ <returns>ログイン結果</returns>
+ <remarks>Create: 2014/02/18 kvc thuy</remarks>
+</member>
+<member name="M:MyStudenApp.SFDCHelper.query(System.String)">
+ <summary>
+ query
+ </summary>
+ <param name="strQueryString"></param>
+ <returns></returns>
+ <remarks>Create: 2014/02/18 kvc thuy</remarks>
+</member>
+<member name="M:MyStudenApp.SFDCHelper.queryAll(System.String)">
+ <summary>
+ queryAll
+ </summary>
+ <param name="strQueryString"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:MyStudenApp.SFDCHelper.queryMore(System.String)">
+ <summary>
+ queryMore
+ </summary>
+ <param name="strQueryLocator"></param>
+ <returns></returns>
+ <remarks>Create: 2014/02/18 kvc thuy</remarks>
+</member>
+<member name="M:MyStudenApp.SFDCHelper.insert(MyStudenApp.WebReference.sObject)">
+ <summary>
+ 挿入する
+ </summary>
+ <param name="sobj">sobj</param>
+ <returns>ブール値</returns>
+ <remarks>Create: 2014/02/18 kvc thuy</remarks>
+</member>
+<member name="M:MyStudenApp.SFDCHelper.insert(MyStudenApp.WebReference.sObject[])">
+ <summary>
+ 挿入する
+ </summary>
+ <param name="sobjArray">sobjアレイ</param>
+ <returns>ブール値のリスト</returns>
+ <remarks>Create: 2014/02/18 kvc thuy</remarks>
+</member>
+<member name="M:MyStudenApp.SFDCHelper.delete(MyStudenApp.WebReference.sObject)">
+ <summary>
+ 削除する
+ </summary>
+ <param name="sobj">sobj</param>
+ <returns>ブール値</returns>
+ <remarks>Create: 2014/02/18 kvc thuy</remarks>
+</member>
+<member name="M:MyStudenApp.SFDCHelper.delete(MyStudenApp.WebReference.sObject[])">
+ <summary>
+ 削除する
+ </summary>
+ <param name="sobjArray">sobjアレイ</param>
+ <returns>ブール値のリスト</returns>
+ <remarks>Create: 2014/02/18 kvc thuy</remarks>
+</member>
+<member name="M:MyStudenApp.SFDCHelper.update(MyStudenApp.WebReference.sObject)">
+ <summary>
+ 更新する
+ </summary>
+ <param name="sobj">sobj</param>
+ <returns>ブール値</returns>
+ <remarks>Create: 2014/02/18 kvc thuy</remarks>
+</member>
+<member name="M:MyStudenApp.SFDCHelper.update(MyStudenApp.WebReference.sObject[])">
+ <summary>
+ 更新する
+ </summary>
+ <param name="sobjArray">sobjアレイ</param>
+ <returns>ブール値のリスト</returns>
+ <remarks>Create: 2014/02/18 kvc thuy</remarks>
+</member>
+<member name="M:MyStudenApp.SFDCHelper.upsertReturnUpsertResult(MyStudenApp.WebReference.sObject[],System.String)">
+ <summary>
+ サートする
+ </summary>
+ <param name="sobjArray">sobjアレイ</param>
+ <returns>UpsertResultのリスト</returns>
+ <remarks>Create: 2014/05/30 ksvc vinh</remarks>
+</member>
+<member name="M:MyStudenApp.SFDCHelper.upsert(MyStudenApp.WebReference.sObject[],System.String)">
+ <summary>
+ サートする
+ </summary>
+ <param name="sobjArray">sobjアレイ</param>
+ <returns>ブール値のリスト</returns>
+ <remarks>Create: 2014/06/02 Ksvc Vinh Hua Quoc</remarks>
+</member>
 <member name="T:MyStudenApp.WebReference.SforceService">
 <remarks/>
 </member>
@@ -6356,6 +6470,210 @@ MyStudenApp
 <remarks/>
 </member>
 <member name="P:MyStudenApp.WebReference.address.street">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.latitude">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.longitude">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.ActivityHistories">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.AssetWarranties">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.Assets">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.AssociatedLocations">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.AttachedContentDocuments">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.Attachments">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.ChildLocations">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.CombinedAttachments">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.ContentDocumentLinks">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.ContractLineItems">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.CreatedBy">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.CreatedById">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.CreatedDate">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.CreatedDateSpecified">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.DestinationReturnOrderLineItems">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.DestinationReturnOrders">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.Emails">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.Events">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.ExternalReference">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.FeedSubscriptionsForEntity">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.Feeds">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.Histories">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.IsDeleted">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.IsDeletedSpecified">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.IsInventoryLocation">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.IsInventoryLocationSpecified">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.IsMobile">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.IsMobileSpecified">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.LastModifiedBy">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.LastModifiedById">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.LastModifiedDate">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.LastModifiedDateSpecified">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.LastReferencedDate">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.LastReferencedDateSpecified">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.LastViewedDate">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.LastViewedDateSpecified">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.LocationType">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.Locations">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.Logo">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.LogoId">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.LookedUpFromActivities">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.Name">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.Notes">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.NotesAndAttachments">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.OpenActivities">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.Owner">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.OwnerId">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.ProcessInstances">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.ProcessSteps">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.RecordActionHistories">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.RecordActions">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.ResourcePreferences">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.RootLocation">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.RootLocationId">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.ServiceResources">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.Shares">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.ShouldSyncWithOci">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.ShouldSyncWithOciSpecified">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.SourceReturnOrderLineItems">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.SourceReturnOrders">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.SystemModstamp">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.SystemModstampSpecified">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.Tasks">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.UserRecordAccess">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.WorkOrderLineItems">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.location.WorkOrders">
 <remarks/>
 </member>
 <member name="T:MyStudenApp.WebReference.DandBCompany">
@@ -13790,213 +14108,6 @@ MyStudenApp
 <remarks/>
 </member>
 <member name="P:MyStudenApp.WebReference.ContractLineItem.UserRecordAccess">
-<remarks/>
-</member>
-<member name="T:MyStudenApp.WebReference.Location">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.latitude">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.longitude">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.ActivityHistories">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.AssetWarranties">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.Assets">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.AssociatedLocations">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.AttachedContentDocuments">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.Attachments">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.ChildLocations">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.CombinedAttachments">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.ContentDocumentLinks">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.ContractLineItems">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.CreatedBy">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.CreatedById">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.CreatedDate">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.CreatedDateSpecified">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.DestinationReturnOrderLineItems">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.DestinationReturnOrders">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.Emails">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.Events">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.ExternalReference">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.FeedSubscriptionsForEntity">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.Feeds">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.Histories">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.IsDeleted">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.IsDeletedSpecified">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.IsInventoryLocation">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.IsInventoryLocationSpecified">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.IsMobile">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.IsMobileSpecified">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.LastModifiedBy">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.LastModifiedById">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.LastModifiedDate">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.LastModifiedDateSpecified">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.LastReferencedDate">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.LastReferencedDateSpecified">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.LastViewedDate">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.LastViewedDateSpecified">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.LocationType">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.Locations">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.Logo">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.LogoId">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.LookedUpFromActivities">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.Name">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.Notes">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.NotesAndAttachments">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.OpenActivities">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.Owner">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.OwnerId">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.ProcessInstances">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.ProcessSteps">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.RecordActionHistories">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.RecordActions">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.ResourcePreferences">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.RootLocation">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.RootLocationId">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.ServiceResources">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.Shares">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.ShouldSyncWithOci">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.ShouldSyncWithOciSpecified">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.SourceReturnOrderLineItems">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.SourceReturnOrders">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.SystemModstamp">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.SystemModstampSpecified">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.Tasks">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.UserRecordAccess">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.WorkOrderLineItems">
-<remarks/>
-</member>
-<member name="P:MyStudenApp.WebReference.Location.WorkOrders">
 <remarks/>
 </member>
 <member name="T:MyStudenApp.WebReference.ContentAsset">
@@ -86797,7 +86908,7 @@ MyStudenApp
 <member name="P:MyStudenApp.WebReference.AIRecordInsight.Target">
 <remarks/>
 </member>
-<member name="P:MyStudenApp.WebReference.AIRecordInsight.TargetField">
+<member name="P:MyStudenApp.WebReference.AIRecordInsight.TargetField1">
 <remarks/>
 </member>
 <member name="P:MyStudenApp.WebReference.AIRecordInsight.TargetId">

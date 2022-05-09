@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sfdcj>
+ <system>
+  <username>lnpthinh@keizu.com</username>
+  <password>phuocthinhvt06</password>
+  <securitytoken></securitytoken>
+  <proxy_host></proxy_host>
+  <proxy_port></proxy_port>
+  <proxy_username></proxy_username>
+  <proxy_password></proxy_password>
+ </system>
+</sfdcj>

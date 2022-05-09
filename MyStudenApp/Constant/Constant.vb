@@ -6,8 +6,12 @@ Public Class Constant
     Public Const LoginInfo As String = "logininfor.xml"
     Public Shared ReadOnly RootDirectory As String = Common.getAbsPath()
     Public Const TextEncoding As String = "Shift-JIS"
+
+    Public Const LogFolderName = "LogFolder"
     Public Const LogErrorFileName = "Error_{0:yyyyMMddHHmmss}.log"
     Public Const LogExecuteFileName = "Execute_{0:yyyyMMddHHmmss}.log"
+
+
     Public Const DateTimeFormat As String = "yyyyMMddHHmm"
     Public Const CultureInfo As String = "en_Us-EN"
 
@@ -43,6 +47,6 @@ Public Class Constant
     Public Const ProxyUserTag As String = "proxy_username"
     Public Const ProxyPassTag As String = "proxy_password"
 #End Region
-    Public Const ErrMsgLoginFail As String = "{0:yyyyMMddHHmmss} ログイン失敗：{1}"
+
 
 End Class

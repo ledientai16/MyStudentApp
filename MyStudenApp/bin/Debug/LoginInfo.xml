@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sfdcj>
+ <system>
+  <username>ledientai16@gmail.com</username>
+  <password>Tai12345</password>
+  <securitytoken>0uL4PlFGW8WK4w9GvMog5E793</securitytoken>
+  <proxy_host></proxy_host>
+  <proxy_port></proxy_port>
+  <proxy_username></proxy_username>
+  <proxy_password></proxy_password>
+ </system>
+</sfdcj>

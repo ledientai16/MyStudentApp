@@ -35390,7 +35390,7 @@
   <service name="SforceService">
     <documentation>Sforce SOAP API</documentation>
     <port name="Soap" binding="tns:SoapBinding">
-      <soap:address location="https://login.salesforce.com/services/Soap/c/54.0/0DF5j0000019Ype" />
+      <soap:address location="https://login.salesforce.com/services/Soap/c/54.0" />
     </port>
   </service>
 </definitions>

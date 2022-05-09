@@ -13,7 +13,7 @@ Module Module1
 
 
     Sub Main()
-        MainController
+        MainController.MainProccess()
     End Sub
 
 End Module

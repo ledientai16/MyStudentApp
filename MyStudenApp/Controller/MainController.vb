@@ -1,20 +1,23 @@
 ﻿Imports Ksvc.Utility
 Public Class MainController
     Public Shared strExecutionUser As String
-    Public Shared logErrorFileName As String
-    Public Shared logExecuteFileName As String
     Public Shared Sub MainProccess()
-        If Not sysSetting.getSystemSettings(settingInfo) Then
-            LogFileHelper.writeExecLog("get SystemSetting error", logErrorFileName, True, settingInfo.Item(Constant.LogErrorFileName))
+        Dim dtToday As Date
+        dtToday = Now()
+        If sysSetting.getSystemSettings(settingInfo) = -1 Then
+            LogFileHelper.writeExecLog("get SystemSetting error", String.Format(Constant.LogErrorFileName, Now()), True, settingInfo.Item(Constant.LogFolderName))
             Environment.Exit(1)
         End If
         System.Net.ServicePointManager.SecurityProtocol = Net.SecurityProtocolType.Tls12
-        LogFileHelper.writeExecLog("get SystemSetting successful", logExecuteFileName, True, settingInfo.Item(Constant.LogExecuteFileName))
-        If Not sysSetting.getLoginInfo(loginInfo) Then
-            LogFileHelper.writeExecLog("get LoginInfo error", logExecuteFileName, True, settingInfo.Item(Constant.LogExecuteFileName))
+        LogFileHelper.writeExecLog("get SystemSetting successful", String.Format(Constant.LogExecuteFileName, Now()), True, settingInfo.Item(Constant.LogFolderName))
+
+        If sysSetting.getLoginInfo(loginInfo) = -1 Then
+            LogFileHelper.writeExecLog("get login error", String.Format(Constant.LogErrorFileName, Now()), True, settingInfo.Item(Constant.LogFolderName))
             Environment.Exit(1)
         End If
-        LogFileHelper.writeExecLog("Get login info success", logExecuteFileName, True, settingInfo(Constant.LoginInfo))
+        LogFileHelper.writeExecLog("get login info success", String.Format(Constant.LogExecuteFileName, Now()), True, settingInfo.Item(Constant.LogFolderName))
+        Console.WriteLine(loginInfo.Item(Constant.UserNameTag))
+
         sfdcService = New SFDCHelper(loginInfo.Item(Constant.UserNameTag),
                                     loginInfo.Item(Constant.PassWordTag),
                                     loginInfo.Item(Constant.SecurityTokenTag),
@@ -24,13 +27,10 @@ Public Class MainController
                                     loginInfo.Item(Constant.ProxyPassTag)
                                     )
         If Not String.IsNullOrEmpty(sfdcService.login()) Then
-            LogFileHelper.writeExecLog("Login error", "logExecuteFileName", True, settingInfo.Item(Constant.LogExecuteFileName))
+            LogFileHelper.writeExecLog("login fail", String.Format(Constant.LogErrorFileName, Now()), True, settingInfo.Item(Constant.LogFolderName))
             Environment.Exit(1)
         Else
-            upserths()
-            copycsv()
-            deletefile()
-
+            LogFileHelper.writeExecLog("login success", String.Format(Constant.LogErrorFileName, Now()), True, settingInfo.Item(Constant.LogFolderName))
         End If
     End Sub
 

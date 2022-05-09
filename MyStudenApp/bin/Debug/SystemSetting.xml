@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sfdcj>
+ <FolderPath>
+  <InputFolder>bambooData</InputFolder>
+  <LogFolder>Logs</LogFolder>
+  <ErrorDataFolder>ErrorDataFolder</ErrorDataFolder>
+ </FolderPath>
+  <BackupDataFolder>BackupDataFolder</BackupDataFolder>
+  <InputFile>B1T421.txt</InputFile>
+  <SMTP>B1T423.txt</SMTP>
+ <PORT>1500</PORT>
+ <SSL></SSL>
+ <MailFrom></MailFrom>
+ <User></User>
+ <Password></Password>
+ <MailTo></MailTo>
+ <LogDays>1</LogDays>
+ <TLS>1.1</TLS>
+</sfdcj>
