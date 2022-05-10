@@ -78,6 +78,7 @@
     <Compile Include="Constant\Constant.vb" />
     <Compile Include="Constant\ConstantCsv.vb" />
     <Compile Include="Controller\MainController.vb" />
+    <Compile Include="Model\ErrorDAO.vb" />
     <Compile Include="Model\HocSinhDAO.vb" />
     <Compile Include="Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -294,10 +295,10 @@
     <WebReferences Include="Web References\" />
   </ItemGroup>
   <ItemGroup>
-    <WebReferenceUrl Include="E:\Saleforce Project\MyStudentApp\wsdl.wsdl">
+    <WebReferenceUrl Include="E:\wsdl.wsdl">
       <UrlBehavior>Dynamic</UrlBehavior>
       <RelPath>Web References\WebReference\</RelPath>
-      <UpdateFromURL>E:\Saleforce Project\MyStudentApp\wsdl.wsdl</UpdateFromURL>
+      <UpdateFromURL>E:\wsdl.wsdl</UpdateFromURL>
       <ServiceLocationURL>
       </ServiceLocationURL>
       <CachedDynamicPropName>

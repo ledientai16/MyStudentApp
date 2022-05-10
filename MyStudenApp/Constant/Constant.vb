@@ -5,7 +5,7 @@ Public Class Constant
     Public Const SystemSettingFile As String = "systemsetting.xml"
     Public Const LoginInfo As String = "logininfor.xml"
     Public Shared ReadOnly RootDirectory As String = Common.getAbsPath()
-    Public Const TextEncoding As String = "Shift-JIS"
+    Public Const TEXT_ENCODING As String = "Shift-JIS"
 
     Public Const LogFolderName = "LogFolder"
     Public Const LogErrorFileName = "Error_{0:yyyyMMddHHmmss}.log"
@@ -15,13 +15,13 @@ Public Class Constant
     Public Const DateTimeFormat As String = "yyyyMMddHHmm"
     Public Const CultureInfo As String = "en_Us-EN"
 
-    Public Const CsvFileExtension As String = ".csv"
-    Public Const CsvDelimeter As String = ","
+    Public Const CSV_FILE_EXTENSION As String = ".csv"
+    Public Const CSV_Delimeter As String = ","
     Public Const LoginInfoFile As String = "LoginInfo.xml"
 
     Public Const ErrorMessage As String = "File {0} row {1} error"
 
-    Public Const ExternalFieldUpsert As String = "Code__c"
+    Public Const ExternalFieldUpsert As String = "MaHS__c"
 
     Public Const CSVFileNameMsg As String = "CSV file name :{0}"
 
@@ -53,6 +53,7 @@ Public Class Constant
 #Region "Setting info tag"
     Public Const BackupCsvFoler As String = "BackupDataFolder"
     Public Const ErrorCsvFolder As String = "ErrorDataFolder"
+    Public Const InputFolder As String = "InputFolder"
 #End Region
 
 

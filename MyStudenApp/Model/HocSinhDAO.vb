@@ -4,12 +4,12 @@ Imports System.Reflection
 
 Public Class HocSinhDAO
 
-    Public Shared Function createHocSinh(ByVal csvRow As String()) As HocSinh__c
+    '' Create Student from csvRow
+    Public Shared Function CreateHocSinh(ByVal csvRow As String()) As HocSinh__c
         Dim objHocSinh As New HocSinh__c
-        objHocSinh.Name = CDbl(csvRow(ConstantCSV.MaHS))
-
-        objHocSinh.Name = csvRow(ConstantCSV.Name)
+        objHocSinh.MaHS__c = csvRow(ConstantCSV.MaHS)
         objHocSinh.HoHocSinh__c = csvRow(ConstantCSV.Ho)
+        objHocSinh.TenHocSinh__c = csvRow(ConstantCSV.Name)
         objHocSinh.GioiTinh__c = CBool(csvRow(ConstantCSV.Sex))
         objHocSinh.GioiTinh__cSpecified = True
         objHocSinh.NgaySinh__c = Date.Parse(csvRow(ConstantCSV.Birthday))

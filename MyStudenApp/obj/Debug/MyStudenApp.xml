@@ -6472,6 +6472,9 @@ MyStudenApp
 <member name="P:MyStudenApp.WebReference.address.street">
 <remarks/>
 </member>
+<member name="T:MyStudenApp.WebReference.location">
+<remarks/>
+</member>
 <member name="P:MyStudenApp.WebReference.location.latitude">
 <remarks/>
 </member>
@@ -9839,6 +9842,9 @@ MyStudenApp
 <remarks/>
 </member>
 <member name="P:MyStudenApp.WebReference.HocSinh__c.Lop__r">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.HocSinh__c.MaHS__c">
 <remarks/>
 </member>
 <member name="P:MyStudenApp.WebReference.HocSinh__c.Name">
@@ -63314,6 +63320,174 @@ MyStudenApp
 <remarks/>
 </member>
 <member name="P:MyStudenApp.WebReference.EventBusSubscriber.Type">
+<remarks/>
+</member>
+<member name="T:MyStudenApp.WebReference.Error__c">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.AttachedContentDocuments">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.Attachments">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.CombinedAttachments">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.ContactRequests">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.ContentDocumentLinks">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.Content__c">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.CreatedBy">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.CreatedById">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.CreatedDate">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.CreatedDateSpecified">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.Date__c">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.Date__cSpecified">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.DestinationFinanceTransactions">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.DuplicateRecordItems">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.FeedSubscriptionsForEntity">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.FinanceBalanceSnapshots">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.FinanceTransactions">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.IsDeleted">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.IsDeletedSpecified">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.LastModifiedBy">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.LastModifiedById">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.LastModifiedDate">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.LastModifiedDateSpecified">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.LookedUpFromActivities">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.Name">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.Notes">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.NotesAndAttachments">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.Owner">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.OwnerId">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.ParentFinanceTransactions">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.ProcessExceptions">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.ProcessInstances">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.ProcessSteps">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.RecordActionHistories">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.RecordActions">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.RecordAssociatedGroups">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.Shares">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.SourceFinanceTransactions">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.SystemModstamp">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.SystemModstampSpecified">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.TopicAssignments">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__c.UserRecordAccess">
+<remarks/>
+</member>
+<member name="T:MyStudenApp.WebReference.Error__Share">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__Share.AccessLevel">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__Share.IsDeleted">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__Share.IsDeletedSpecified">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__Share.LastModifiedBy">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__Share.LastModifiedById">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__Share.LastModifiedDate">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__Share.LastModifiedDateSpecified">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__Share.Parent">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__Share.ParentId">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__Share.RowCause">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__Share.UserOrGroup">
+<remarks/>
+</member>
+<member name="P:MyStudenApp.WebReference.Error__Share.UserOrGroupId">
 <remarks/>
 </member>
 <member name="T:MyStudenApp.WebReference.EntitySubscription">
